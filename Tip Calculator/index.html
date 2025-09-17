@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tip Calculator</h1>
+        <div class="input-field">
+            <div class="total-bill">
+                <p id="titles1">Enter Total Bill</p>
+                <div class="input-bill">
+                    <!-- <p><i class="fa-solid fa-indian-rupee-sign"></i></p> -->
+                    <input id="inp1" type="number" value="" placeholder="Enter Amount">
+                </div>
+            </div>
+            <div class="tip-per">
+                <p id="titles2">Rate Our Service</p>
+                <div class="input-percentage">
+                    <input id="inp2" type="number" value="" placeholder="Please Rate">
+                    <!-- <p><i class="fa-regular fa-percent"></i></p> -->
+                </div>
+            </div>
+        </div>
+        <div class="submit">
+            <button id="Calculate">Calculate</button>
+        </div>
+        <div class="button-field">
+            <button id="btn1">0</button>
+            <button id="btn2">5</button>
+            <button id="btn3">10</button>
+            <button id="btn4">15</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
